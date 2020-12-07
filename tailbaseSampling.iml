@@ -61,5 +61,9 @@
     <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.10.0" level="project" />
     <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.14.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-core:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-api:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-runtime:1.7.2" level="project" />
+    <orderEntry type="library" name="Maven: io.protostuff:protostuff-collectionschema:1.7.2" level="project" />
   </component>
 </module>

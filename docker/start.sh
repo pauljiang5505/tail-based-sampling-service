@@ -1,7 +1,7 @@
 if   [  $SERVER_PORT  ];
 then
-   java -Xms2048M -Xmx2048M -XX:+UseG1GC -Dserver.port=$SERVER_PORT -jar /usr/local/src/tailbaseSampling-1.0-SNAPSHOT.jar &
+   java -Dserver.port=$SERVER_PORT -jar /usr/local/src/tail-based-sampling-1.0-SNAPSHOT-jar-with-dependencies.jar &
 else
-   java -Xms2048M -Xmx2048M -XX:+UseG1GC -Dserver.port=8000 -jar /usr/local/src/tailbaseSampling-1.0-SNAPSHOT.jar &
+   java -Dserver.port=8000 -jar /usr/local/src/tail-based-sampling-1.0-SNAPSHOT-jar-with-dependencies.jar &
 fi
 tail -f /usr/local/src/start.sh
